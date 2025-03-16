@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="swiper.css">
+</head>
+<body>
+    <section class="testimonial">
+        <!-- Swiper -->
+        <div class="swiper mySwiper swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="testimonialBox">
+                        <img src="./image/algotrading.jpg" class="quote" alt="">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam aut provident. Molestias reprehenderit totam fuga pariatur vero aspernatur dignissimos.</p>
+                            <div class="details">
+                                <div class="img8x">
+                                    <img src="./image/qinvia-wallpaper1.jpg" alt="">
+                                </div>
+                                <h3>Someone Famous <br> <span>Creative Designer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonialBox">
+                        <img src="./image/algotrading.jpg" class="quote" alt="">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam aut provident. Molestias reprehenderit totam fuga pariatur vero aspernatur dignissimos.</p>
+                            <div class="details">
+                                <div class="img8x">
+                                    <img src="./image/logo-slim-white.png" alt="">
+                                </div>
+                                <h3>Someone Famous <br> <span>Creative Designer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-slide"> -->
+                    <!-- <div class="testimonialBox"> -->
+                        <!-- <img src="./image/algotrading.jpg" class="quote" alt=""> -->
+                        <!-- <div class="content"> -->
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam aut provident. Molestias reprehenderit totam fuga pariatur vero aspernatur dignissimos.</p> -->
+                            <!-- <div class="details"> -->
+                                <!-- <div class="img8x"> -->
+                                    <!-- <img src="./image/qinvia-wallpaper1.jpg" alt=""> -->
+                                <!-- </div> -->
+                                <!-- <h3>Someone Famous <br> <span>Creative Designer</span></h3> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+                <!-- <div class="swiper-slide"> -->
+                    <!-- <div class="testimonialBox"> -->
+                        <!-- <img src="./image/algotrading.jpg" class="quote" alt=""> -->
+                        <!-- <div class="content"> -->
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam aut provident. Molestias reprehenderit totam fuga pariatur vero aspernatur dignissimos.</p> -->
+                            <!-- <div class="details"> -->
+                                <!-- <div class="img8x"> -->
+                                    <!-- <img src="./image/qinvia-wallpaper1.jpg" alt=""> -->
+                                <!-- </div> -->
+                                <!-- <h3>Someone Famous <br> <span>Creative Designer</span></h3> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>    
+</body>
+</html>
